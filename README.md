@@ -21,7 +21,7 @@
 
 ---
 
-# Open Source Code Examples
+# Open Source Code Examples(원래 코드)
 
 https://github.com/brikis98/terraform-up-and-running-code
 
