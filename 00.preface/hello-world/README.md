@@ -1,18 +1,18 @@
-# Terraform "Hello, World" example
+# 테라폼 "Hello, World" 예제
 
-This folder contains a "Hello, World" example of a [Terraform](https://www.terraform.io/) configuration. The configuration 
-deploys a single server in an [Amazon Web Services (AWS) account](http://aws.amazon.com/). 
+This folder contains a "Hello, World" example of a [Terraform](https://www.terraform.io/) configuration. 
+The configuration deploys a single server in an [Amazon Web Services (AWS) account](http://aws.amazon.com/). 
 
 For more info, please see the preface of *[Terraform: Up and Running](http://www.terraformupandrunning.com)*.
 
-## Pre-requisites
+## 선수 필요 항목
 
 * You must have [Terraform](https://www.terraform.io/) installed on your computer. 
 * You must have an [Amazon Web Services (AWS) account](http://aws.amazon.com/).
 
 Please note that this code was written for Terraform 0.12.x.
 
-## Quick start
+## 시작하기
 
 **Please note that this example will deploy real resources into your AWS account. We have made every effort to ensure 
 all the resources qualify for the [AWS Free Tier](https://aws.amazon.com/free/), but we are not responsible for any
