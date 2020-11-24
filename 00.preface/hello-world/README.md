@@ -27,6 +27,12 @@ export AWS_ACCESS_KEY_ID=(your access key id)
 export AWS_SECRET_ACCESS_KEY=(your secret access key)
 ```
 
+Cloud9을 사용한다면
+
+```
+sudo apt install terraform==0.12.0
+```
+
 코드 배포:
 
 ```
