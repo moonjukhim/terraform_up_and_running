@@ -16,7 +16,9 @@ resource "aws_instance" "app" {
 
   user_data = <<-EOF
               #!/bin/bash
-              sudo service apache2 start
+              yum install -y httpd
+              git clone https://github.com/brikis98/php-app.git /var/www/html/app
+              service httpd start
               EOF
 }
 
