@@ -7,10 +7,10 @@ For more info, please see the preface of *[Terraform: Up and Running](http://www
 
 ## 선수 필요 항목
 
-* You must have [Terraform](https://www.terraform.io/) installed on your computer. 
-* You must have an [Amazon Web Services (AWS) account](http://aws.amazon.com/).
+* [Terraform](https://www.terraform.io/) 에서 테라폼을 다운로드 받아 설치. 
+* [Amazon Web Services (AWS)](http://aws.amazon.com/) 계정 생성.
 
-Please note that this code was written for Terraform 0.12.x.
+해당 코드는 Terraform 0.12.x에서 작성되었습니다.
 
 ## 시작하기
 
