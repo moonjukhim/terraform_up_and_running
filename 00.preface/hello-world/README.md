@@ -18,8 +18,7 @@ For more info, please see the preface of *[Terraform: Up and Running](http://www
 all the resources qualify for the [AWS Free Tier](https://aws.amazon.com/free/), but we are not responsible for any
 charges you may incur.** 
 
-Configure your [AWS access 
-keys](http://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys) as 
+Configure your [AWS access keys](http://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys) as 
 environment variables:
 
 ```
@@ -30,8 +29,10 @@ export AWS_SECRET_ACCESS_KEY=(your secret access key)
 Cloud9을 사용한다면
 
 ```
-sudo apt install terraform==0.12.0
+/home/ec2-user/Terraform
 ```
+
+sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/0.12/hashicorp.repo
 
 코드 배포:
 
