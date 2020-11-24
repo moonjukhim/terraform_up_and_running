@@ -29,10 +29,12 @@ export AWS_SECRET_ACCESS_KEY=(your secret access key)
 Cloud9을 사용한다면
 
 ```
-/home/ec2-user/Terraform
+mkdir Terraform
+cd Terraform
+wget https://releases.hashicorp.com/terraform/0.12.29/terraform_0.12.29_linux_amd64.zip
+unzip terraform_0.12.29_linux_amd64.zip
+chmod 740 terraform
 ```
-
-sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/0.12/hashicorp.repo
 
 코드 배포:
 
