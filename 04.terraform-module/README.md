@@ -1,3 +1,4 @@
+```
 .
 +-- _config.yml
 +-- _drafts
@@ -16,3 +17,4 @@
 |   +-- members.yml
 +-- _site
 +-- index.html
+```
