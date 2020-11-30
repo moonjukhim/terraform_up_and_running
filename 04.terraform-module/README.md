@@ -1,9 +1,10 @@
 ```
 .
-+-- _config.yml
-+-- _drafts
-|   +-- begin-with-the-crazy-ideas.textile
-|   +-- on-simplicity-in-technology.markdown
++-- global
+|   +-- s3
+|       +-- main.tf
+|       +-- outputs.tf
+|       +-- variables.tf
 +-- _includes
 |   +-- footer.html
 |   +-- header.html
