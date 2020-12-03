@@ -5,7 +5,7 @@ terraform {
 provider "aws" {
   region = "us-east-2"
 
-  # Allow any 2.x version of the AWS provider
+  # 2.x 버전의 AWS 공급자 허용
   version = "~> 2.0"
 }
 
@@ -15,9 +15,7 @@ resource "aws_iam_user" "example" {
 }
 
 resource "aws_iam_policy" "cloudwatch_read_only" {
-
   name   = "${var.policy_name_prefix}cloudwatch-read-only"
-
   policy = data.aws_iam_policy_document.cloudwatch_read_only.json
 }
 
@@ -34,9 +32,7 @@ data "aws_iam_policy_document" "cloudwatch_read_only" {
 }
 
 resource "aws_iam_policy" "cloudwatch_full_access" {
-
   name   = "${var.policy_name_prefix}cloudwatch-full-access"
-
   policy = data.aws_iam_policy_document.cloudwatch_full_access.json
 }
 
