@@ -8,6 +8,12 @@ practice importing existing resources into Terraform state.
 For more info, please see Chapter 5, "Terraform Tips & Tricks: Loops, If-Statements, Deployment, and Gotchas", of 
 *[Terraform: Up and Running](http://www.terraformupandrunning.com)*.
 
+다음의 위치에서 코드를 다운로드 받습니다.
+
+```bash
+git clone https://github.com/moonjukhim/terraform_up_and_running.git
+```
+
 ## Pre-requisites
 
 * You must have [Terraform](https://www.terraform.io/) installed on your computer. 
