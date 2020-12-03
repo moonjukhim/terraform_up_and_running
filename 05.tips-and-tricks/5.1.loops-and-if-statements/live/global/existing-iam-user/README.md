@@ -1,4 +1,4 @@
-# Existing IAM user example
+# Existing IAM user 예제
 
 This folder contains example [Terraform](https://www.terraform.io/) configuration that create an 
 [IAM](https://aws.amazon.com/iam/) user in an [Amazon Web Services (AWS) account](http://aws.amazon.com/). The goal of
