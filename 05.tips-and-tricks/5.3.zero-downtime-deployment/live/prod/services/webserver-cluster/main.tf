@@ -14,7 +14,7 @@ module "webserver_cluster" {
 
   ami         = "ami-0c55b159cbfafe1f0"
 
-  server_text = var.server_text
+  server_text = var.server_new_text
 
   cluster_name           = var.cluster_name
   db_remote_state_bucket = var.db_remote_state_bucket
