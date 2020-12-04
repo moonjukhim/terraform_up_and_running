@@ -13,7 +13,7 @@ resource "aws_launch_configuration" "example" {
       : data.template_file.user_data_new[0].rendered
   )
 
-  # Required when using a launch configuration with an auto scaling group.
+  # 오토스케일링 그룹과 함께 시작 구성을 사용할 때 필요합니다.
   # https://www.terraform.io/docs/providers/aws/r/launch_configuration.html
   lifecycle {
     create_before_destroy = true
