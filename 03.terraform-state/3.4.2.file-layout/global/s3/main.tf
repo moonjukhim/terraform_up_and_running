@@ -5,7 +5,7 @@ terraform {
 provider "aws" {
   region = "us-east-2"
 
-  # Allow any 2.x version of the AWS provider
+  # 2.x 버전의 AWS 공급자 허용
   version = "~> 2.0"
 }
 
@@ -23,7 +23,7 @@ resource "aws_s3_bucket" "terraform_state" {
     enabled = true
   }
 
-  # Enable server-side encryption by default
+  # 서버사이드 암호화 설정
   server_side_encryption_configuration {
     rule {
       apply_server_side_encryption_by_default {
