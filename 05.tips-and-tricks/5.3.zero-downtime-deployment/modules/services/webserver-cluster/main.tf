@@ -9,7 +9,7 @@ resource "aws_launch_configuration" "example" {
 
   user_data = data.template_file.user_data.rendered
 
-  # Required when using a launch configuration with an auto scaling group.
+  # 오토스케일링 그룹과 함께 시작 구성을 사용할 때 필요합니다.
   # https://www.terraform.io/docs/providers/aws/r/launch_configuration.html
   lifecycle {
     create_before_destroy = true
@@ -28,8 +28,8 @@ data "template_file" "user_data" {
 }
 
 resource "aws_autoscaling_group" "example" {
-  # Explicitly depend on the launch configuration's name so each time it's
-  # replaced, this ASG is also replaced
+  # 실행 구성의 이름에 명시적으로 의존하므로
+  # 교체 될 때 마다 이 ASG도 교체됩니다.
   name = "${var.cluster_name}-${aws_launch_configuration.example.name}"
 
   launch_configuration = aws_launch_configuration.example.name
