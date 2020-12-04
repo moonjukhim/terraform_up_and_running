@@ -24,8 +24,14 @@ variable "cluster_name" {
   default     = "webservers-prod"
 }
 
-variable "server_text" {
+#variable "server_text" {
+#  description = "The text for each EC2 instance to display. You can change this text to force a redeploy."
+#  type        = string
+#  default     = "Hello, World"
+#}
+
+variable "server_new_text" {
   description = "The text for each EC2 instance to display. You can change this text to force a redeploy."
   type        = string
-  default     = "Hello, World"
+  default     = "New Text"
 }
