@@ -5,7 +5,7 @@ terraform {
 provider "aws" {
   region = "us-east-2"
 
-  # Allow any 2.x version of the AWS provider
+  # 2.x 버전의 AWS 공급자 허용
   version = "~> 2.0"
 }
 
@@ -15,7 +15,7 @@ resource "aws_launch_configuration" "example" {
   security_groups = [aws_security_group.instance.id]
   user_data       = data.template_file.user_data.rendered
 
-  # Required when using a launch configuration with an auto scaling group.
+  # 오토스케일링 그룹과 함께 시작 구성을 사용할 때 필요합니다.
   # https://www.terraform.io/docs/providers/aws/r/launch_configuration.html
   lifecycle {
     create_before_destroy = true
