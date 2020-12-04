@@ -20,7 +20,7 @@ resource "aws_launch_configuration" "example" {
               nohup busybox httpd -f -p ${var.server_port} &
               EOF
 
-  # Required when using a launch configuration with an auto scaling group.
+  # 오토스케일링 그룹과 함께 시작 구성을 사용할 때 필요합니다.
   # https://www.terraform.io/docs/providers/aws/r/launch_configuration.html
   lifecycle {
     create_before_destroy = true
@@ -127,7 +127,7 @@ resource "aws_security_group" "alb" {
 
   name = var.alb_security_group_name
 
-  # Allow inbound HTTP requests
+  # inbound HTTP 인바운드 트래픽 허용
   ingress {
     from_port   = 80
     to_port     = 80
@@ -135,7 +135,7 @@ resource "aws_security_group" "alb" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 
-  # Allow all outbound requests
+  # 모든 아웃바운트 트래픽 허용
   egress {
     from_port   = 0
     to_port     = 0
