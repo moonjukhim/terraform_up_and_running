@@ -29,6 +29,8 @@ data "template_file" "user_data" {
 
 resource "aws_autoscaling_group" "example" {
   # 실행 구성의 이름에 명시적으로 의존하므로 교체 될 때 마다 이 ASG도 교체됩니다.
+  # 다음과 같이 ASG의 이름을 변경하여 새로운 버전을 배포합니다.
+  # name = "${var.cluster_name}-${aws_launch_configuration.example.name}-v1"
   name = "${var.cluster_name}-${aws_launch_configuration.example.name}"
 
   launch_configuration = aws_launch_configuration.example.name
