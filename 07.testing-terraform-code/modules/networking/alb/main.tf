@@ -14,7 +14,7 @@ resource "aws_lb_listener" "http" {
   port              = local.http_port
   protocol          = "HTTP"
 
-  # By default, return a simple 404 page
+  # 기본적으로 간단한 404 페이지를 반환합니다.
   default_action {
     type = "fixed-response"
 
