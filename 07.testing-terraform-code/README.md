@@ -30,6 +30,8 @@ https://docs.aws.amazon.com/ko_kr/cloud9/latest/user-guide/tutorial-ruby.html
 
 테라테스트(Terratest)
 
+https://terratest.gruntwork.io/docs/getting-started/quick-start/
+
 테라테스트를 사용하려면 다음을 수행해야 합니다.
 
     1. 다음의 내용을 확인하고 고를 설치합니다(Cloud9에는 이미 설치되어 있습니다.)
