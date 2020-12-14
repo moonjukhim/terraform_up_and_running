@@ -12,18 +12,18 @@
 
 https://docs.aws.amazon.com/ko_kr/cloud9/latest/user-guide/tutorial-ruby.html
 
-1단계 : 필수 도구 설치
+    1단계 : 필수 도구 설치
 
-2단계 : 코드 추가
+    2단계 : 코드 추가
 
-3단계 : 코드 실행
+    3단계 : 코드 실행
 
-4단계 : Ruby용 AWS SDK 설치 및 구성
+    4단계 : Ruby용 AWS SDK 설치 및 구성
 
-5단계 : AWS SDK 코드 추가
+    5단계 : AWS SDK 코드 추가
 
-6단계 : AWS SDK 코드 실행
+    6단계 : AWS SDK 코드 실행
 
-7단계 : 정리
+    7단계 : 정리
 
 
