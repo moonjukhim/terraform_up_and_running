@@ -7,8 +7,10 @@ For more info, please see the preface of *[Terraform: Up and Running](http://www
 
 ## 선수 필요 항목
 
-* [Terraform](https://www.terraform.io/) 에서 테라폼을 다운로드 받아 설치. 
 * [Amazon Web Services (AWS)](http://aws.amazon.com/) 계정 생성.
+* [Terraform](https://www.terraform.io/) 에서 테라폼을 다운로드 받아 설치. 
+    * a.테라폼을 로컬 PC에 설치 or
+    * b.테라폼을 AWS 클라우드 내에 Cloud9에 설치
 
 해당 코드는 Terraform 0.12.x에서 작성되었습니다.
 
