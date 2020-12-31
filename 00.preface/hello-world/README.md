@@ -16,9 +16,7 @@ For more info, please see the preface of *[Terraform: Up and Running](http://www
 
 ## 시작하기
 
-**Please note that this example will deploy real resources into your AWS account. We have made every effort to ensure 
-all the resources qualify for the [AWS Free Tier](https://aws.amazon.com/free/), but we are not responsible for any
-charges you may incur.** 
+** 이 예제는 실제 리소스를 AWS 계정에 배포합니다. 모든 리소스가 AWS 프리 티어에 적합한 지 확인하기 위해 모든 노력을 기울 였지만 발생할 수있는 비용에 대해서는 책임지지 않습니다. ** 
 
 Configure your [AWS access keys](http://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys) as 
 environment variables:
