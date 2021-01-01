@@ -48,3 +48,13 @@ terraform apply
 ```
 terraform destroy
 ```
+
+---
+
+Cloud9 사용하기
+
+1. Management Console에서 Cloud9 서비스를 검색합니다.
+
+![Cloud9 서비스 검색](https://github.com/moonjukhim/terraform_up_and_running/blob/master/00.preface/hello-world/img/terraform_cloud9_000.jpg?raw=true)
+
+2. 
