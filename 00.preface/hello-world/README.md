@@ -57,4 +57,26 @@ Cloud9 사용하기
 
 ![Cloud9 서비스 검색](https://github.com/moonjukhim/terraform_up_and_running/blob/master/00.preface/hello-world/img/terraform_cloud9_000.jpg?raw=true)
 
-2. 
+2. 새로운 Environment를 생성합니다.
+
+![New Environment](https://github.com/moonjukhim/terraform_up_and_running/blob/master/00.preface/hello-world/img/terraform_cloud9_001.jpg?raw=true)
+
+3. Environment에 적절한 이름을 지정합니다.
+
+![Cloud9 서비스 검색](https://github.com/moonjukhim/terraform_up_and_running/blob/master/00.preface/hello-world/img/terraform_cloud9_002.jpg?raw=true)
+
+4. 설정 부분은 기본값으로 두고 Next Step을 클릭합니다.
+
+![Cloud9 서비스 검색](https://github.com/moonjukhim/terraform_up_and_running/blob/master/00.preface/hello-world/img/terraform_cloud9_003.jpg?raw=true)
+
+5. 설정에 대한 부분을 확인하고 Create Environment를 클릭하여 환경을 생성합니다.
+
+![Cloud9 서비스 검색](https://github.com/moonjukhim/terraform_up_and_running/blob/master/00.preface/hello-world/img/terraform_cloud9_004.jpg?raw=true)
+
+6. 얼마 후에 새로운 환경이 생성됩니다.
+
+![Cloud9 서비스 검색](https://github.com/moonjukhim/terraform_up_and_running/blob/master/00.preface/hello-world/img/terraform_cloud9_005.jpg?raw=true)
+
+7. 다음과 같이 웹을 통해 IDE를 제공합니다.
+
+![Cloud9 서비스 검색](https://github.com/moonjukhim/terraform_up_and_running/blob/master/00.preface/hello-world/img/terraform_cloud9_006.jpg?raw=true)
