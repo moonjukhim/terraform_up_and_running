@@ -127,7 +127,7 @@ resource "aws_security_group" "alb" {
 
   name = var.alb_security_group_name
 
-  # inbound HTTP 인바운드 트래픽 허용
+  # HTTP 인바운드 트래픽 허용
   ingress {
     from_port   = 80
     to_port     = 80
