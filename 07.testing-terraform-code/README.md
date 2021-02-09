@@ -43,3 +43,7 @@ https://terratest.gruntwork.io/docs/getting-started/quick-start/
     4. 테스트 코드를 위해 GOPATH내에 폴더를 생성합니다.
 
     5. 방금 만든 폴더에서 dep init 명령어를 실행합니다. 명령을 실행하면 Gopkg.toml, Gopkg.lock 및 비어 있는 vendors 폴더가 생성됩니다.
+
+
+https://titanwolf.org/Network/Articles/Article?AID=67f37629-1096-4cb1-8372-862969ffb18a#gsc.tab=0
+https://slacker.ro/2019/03/19/test-your-infrastructure-code-with-terratest/
